@@ -1,0 +1,19 @@
+.restaurant-form {
+        
+}
+
+.restaurant-form fieldset {
+   
+}
+
+img {
+    width: 12em;
+    height: 12em;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px gray;
+    margin: 1.6em 0;
+}
+
+input[type = 'file'] {
+    margin: 1em 0;
+}

@@ -1,0 +1,18 @@
+.btn-back {
+    margin-top: 1em;
+    background-color: tomato;
+    color: white;
+}
+
+.btn-save {
+    color: white;
+    margin-top: 1em;
+    
+    background-color: teal;
+}
+
+.containet-btn-contr {
+    margin-top: 1em;
+    padding: 1em;
+    
+}

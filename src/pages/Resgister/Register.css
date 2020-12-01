@@ -1,0 +1,72 @@
+h1 {
+    margin-top: 1em;
+    font-size: 2em;
+}
+
+@media (min-width: 500px) {
+    .container-sm {
+        width: 50%;
+       
+    }
+    
+}
+
+
+.container-forms {
+    height: 50em;
+    margin: 1.5em auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    z-index: 2;
+    line-height: 1.5;
+    box-sizing: inherit;
+    border-radius:.25rem;
+    border: 1px solid rgba(0,0,0,.125);
+    box-shadow: 0px 0px 5px black;
+}
+
+
+.forms-row {
+    height: 40%;
+    width: 100%;
+    /* transform: translateX(-100%); */
+}
+
+.form-element {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    padding: 2.1em;
+}
+
+.owner-form {
+    left: 100%;
+}
+
+.move-next {
+    transform: translateX(-100%); 
+    transition: all .5s ease-out;
+}
+
+.move-back {
+    transform: translateX(0%); 
+    transition: all .5s ease-out;
+}
+
+
+.message-res {
+    position: absolute;
+    width: 47%;
+    top: 0;
+    z-index: -1000;
+}
+
+.show-message {
+    top: 25%;
+    z-index: 1000;
+}
+
+
+

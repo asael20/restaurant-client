@@ -1,0 +1,8 @@
+.navigation {
+    background-color: white;
+    border-bottom: 1px gainsboro solid;
+}
+
+.activado {
+    background-color: green;
+}
